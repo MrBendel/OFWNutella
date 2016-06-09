@@ -13,16 +13,19 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
+  var rootViewController: RootViewController?
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    application.statusBarHidden = true
+
     window = UIWindow(frame: UIScreenBounds)
     if let w = window {
-      w.rootViewController = nil;
+      rootViewController = RootViewController()
+      w.rootViewController = rootViewController;
+      w.makeKeyAndVisible()
     }
-
-    let masterNavigationController = splitViewController.viewControllers[0] as! UINavigationController
-    let controller = masterNavigationController.topViewController as! MasterViewController
-    controller.managedObjectContext = self.managedObjectContext
+    // set the managed context
+//    controller.managedObjectContext = self.managedObjectContext
     return true
   }
 
