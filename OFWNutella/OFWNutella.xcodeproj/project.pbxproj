@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2D332B1D09D262006D4319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D332A1D09D262006D4319 /* AppDelegate.swift */; };
+		FA2D332F1D09D2A2006D4319 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D332E1D09D2A2006D4319 /* Core.swift */; };
+		FA2D33321D09D762006D4319 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D33311D09D762006D4319 /* RootViewController.swift */; };
+		FA97C7451D09D166004D574B /* OFWNutella.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA97C7431D09D166004D574B /* OFWNutella.xcdatamodeld */; };
+		FA97C74E1D09D166004D574B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA97C74D1D09D166004D574B /* Assets.xcassets */; };
+		FA97C7511D09D166004D574B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA97C74F1D09D166004D574B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA2D33291D09D262006D4319 /* OFWNutella-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OFWNutella-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA2D332A1D09D262006D4319 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = src/AppDelegate.swift; sourceTree = "<group>"; };
+		FA2D332E1D09D2A2006D4319 /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Core.swift; path = src/Core.swift; sourceTree = "<group>"; };
+		FA2D33311D09D762006D4319 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = src/RootViewController.swift; sourceTree = "<group>"; };
+		FA97C73E1D09D166004D574B /* OFWNutella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OFWNutella.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA97C7441D09D166004D574B /* OFWNutella.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OFWNutella.xcdatamodel; sourceTree = "<group>"; };
+		FA97C74D1D09D166004D574B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA97C7501D09D166004D574B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA97C7521D09D166004D574B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA97C73B1D09D166004D574B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2D33281D09D254006D4319 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D332C1D09D26B006D4319 /* App */,
+				FA2D332D1D09D273006D4319 /* Core */,
+				FA2D33301D09D745006D4319 /* Root */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		FA2D332C1D09D26B006D4319 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D332A1D09D262006D4319 /* AppDelegate.swift */,
+				FA2D33291D09D262006D4319 /* OFWNutella-Bridging-Header.h */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		FA2D332D1D09D273006D4319 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D332E1D09D2A2006D4319 /* Core.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FA2D33301D09D745006D4319 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D33311D09D762006D4319 /* RootViewController.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		FA97C7351D09D166004D574B = {
+			isa = PBXGroup;
+			children = (
+				FA97C7401D09D166004D574B /* OFWNutella */,
+				FA97C73F1D09D166004D574B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA97C73F1D09D166004D574B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA97C73E1D09D166004D574B /* OFWNutella.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA97C7401D09D166004D574B /* OFWNutella */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D33281D09D254006D4319 /* src */,
+				FA97C74D1D09D166004D574B /* Assets.xcassets */,
+				FA97C74F1D09D166004D574B /* LaunchScreen.storyboard */,
+				FA97C7521D09D166004D574B /* Info.plist */,
+				FA97C7431D09D166004D574B /* OFWNutella.xcdatamodeld */,
+			);
+			path = OFWNutella;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA97C73D1D09D166004D574B /* OFWNutella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA97C7551D09D166004D574B /* Build configuration list for PBXNativeTarget "OFWNutella" */;
+			buildPhases = (
+				FA97C73A1D09D166004D574B /* Sources */,
+				FA97C73B1D09D166004D574B /* Frameworks */,
+				FA97C73C1D09D166004D574B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OFWNutella;
+			productName = OFWNutella;
+			productReference = FA97C73E1D09D166004D574B /* OFWNutella.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA97C7361D09D166004D574B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = apoes;
+				TargetAttributes = {
+					FA97C73D1D09D166004D574B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA97C7391D09D166004D574B /* Build configuration list for PBXProject "OFWNutella" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA97C7351D09D166004D574B;
+			productRefGroup = FA97C73F1D09D166004D574B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA97C73D1D09D166004D574B /* OFWNutella */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA97C73C1D09D166004D574B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97C7511D09D166004D574B /* LaunchScreen.storyboard in Resources */,
+				FA97C74E1D09D166004D574B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA97C73A1D09D166004D574B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D332F1D09D2A2006D4319 /* Core.swift in Sources */,
+				FA2D332B1D09D262006D4319 /* AppDelegate.swift in Sources */,
+				FA2D33321D09D762006D4319 /* RootViewController.swift in Sources */,
+				FA97C7451D09D166004D574B /* OFWNutella.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA97C74F1D09D166004D574B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA97C7501D09D166004D574B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA97C7531D09D166004D574B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA97C7541D09D166004D574B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA97C7561D09D166004D574B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = OFWNutella/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andythedesigner.www.OFWNutella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OFWNutella/OFWNutella-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA97C7571D09D166004D574B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = OFWNutella/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andythedesigner.www.OFWNutella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OFWNutella/OFWNutella-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA97C7391D09D166004D574B /* Build configuration list for PBXProject "OFWNutella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA97C7531D09D166004D574B /* Debug */,
+				FA97C7541D09D166004D574B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA97C7551D09D166004D574B /* Build configuration list for PBXNativeTarget "OFWNutella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA97C7561D09D166004D574B /* Debug */,
+				FA97C7571D09D166004D574B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA97C7431D09D166004D574B /* OFWNutella.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA97C7441D09D166004D574B /* OFWNutella.xcdatamodel */,
+			);
+			currentVersion = FA97C7441D09D166004D574B /* OFWNutella.xcdatamodel */;
+			path = OFWNutella.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA97C7361D09D166004D574B /* Project object */;
+}
