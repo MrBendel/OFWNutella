@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../APLoopingScrollView/APLoopingScrollView/APLoopingScrollView.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:OFWNutella/OFWNutella.xcodeproj">
    </FileRef>
 </Workspace>

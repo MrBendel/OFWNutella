@@ -26,7 +26,12 @@ class RootViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
+    var b: APLoopingScrollView = APLoopingScrollView()
+
     self.view.backgroundColor = UIColor.magentaColor()
+
+    let c:CGFloat = Pop
+    let a: CGRect = UIScreenBounds
   }
 
   override func prefersStatusBarHidden() -> Bool {

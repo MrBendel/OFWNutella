@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD9B68936845E25C24BD0A525409273C83792BE1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "548F36BD84A5CD21BB8142089191B23D2729B883" : 0,
+    "FD9B68936845E25C24BD0A525409273C83792BE1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1875CCD0-21B8-4DAE-9E6B-472C8FEB04A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "548F36BD84A5CD21BB8142089191B23D2729B883" : "APLoopingScrollView\/",
+    "FD9B68936845E25C24BD0A525409273C83792BE1" : "OFWNutella\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OFWNutella",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OFWNutella.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MrBendel\/APLoopingScrollView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "548F36BD84A5CD21BB8142089191B23D2729B883"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MrBendel\/OFWNutella.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD9B68936845E25C24BD0A525409273C83792BE1"
+    }
+  ]
+}
