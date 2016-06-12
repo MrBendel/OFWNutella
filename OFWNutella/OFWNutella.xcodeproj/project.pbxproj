@@ -17,7 +17,6 @@
 		FAD8D4A01D0B75980045595A /* LibAPLoopingScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8D49F1D0B75980045595A /* LibAPLoopingScrollView.framework */; };
 		FAD8D4A11D0B75980045595A /* LibAPLoopingScrollView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8D49F1D0B75980045595A /* LibAPLoopingScrollView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAD8D4A51D0B76B00045595A /* APLoopingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8D4A31D0B76B00045595A /* APLoopingScrollView.swift */; };
-		FAD8D4A61D0B76B00045595A /* APLoopingScrollViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8D4A41D0B76B00045595A /* APLoopingScrollViewHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +46,6 @@
 		FA97C7521D09D166004D574B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAD8D49F1D0B75980045595A /* LibAPLoopingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = LibAPLoopingScrollView.framework; path = "/Users/apoes/Library/Developer/Xcode/DerivedData/OFWNutella-bhctttnuqausaidhmhiazltlrnno/Build/Products/Debug-iphonesimulator/LibAPLoopingScrollView.framework"; sourceTree = "<absolute>"; };
 		FAD8D4A31D0B76B00045595A /* APLoopingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APLoopingScrollView.swift; path = ../../../APLoopingScrollView/APLoopingScrollView/APLoopingScrollView/Source/APLoopingScrollView.swift; sourceTree = "<group>"; };
-		FAD8D4A41D0B76B00045595A /* APLoopingScrollViewHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APLoopingScrollViewHelpers.swift; path = ../../../APLoopingScrollView/APLoopingScrollView/APLoopingScrollView/Source/APLoopingScrollViewHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				FAD8D4A31D0B76B00045595A /* APLoopingScrollView.swift */,
-				FAD8D4A41D0B76B00045595A /* APLoopingScrollViewHelpers.swift */,
 			);
 			name = APLoopingScrollView;
 			sourceTree = "<group>";
@@ -211,7 +208,6 @@
 				FA57239E1D0BD48700A5188A /* Easing.swift in Sources */,
 				FA2D332F1D09D2A2006D4319 /* Core.swift in Sources */,
 				FA2D332B1D09D262006D4319 /* AppDelegate.swift in Sources */,
-				FAD8D4A61D0B76B00045595A /* APLoopingScrollViewHelpers.swift in Sources */,
 				FA2D33321D09D762006D4319 /* RootViewController.swift in Sources */,
 				FA97C7451D09D166004D574B /* OFWNutella.xcdatamodeld in Sources */,
 				FAD8D4A51D0B76B00045595A /* APLoopingScrollView.swift in Sources */,
