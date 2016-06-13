@@ -36,9 +36,10 @@ class RootViewController: UIViewController, APLoopingScrollViewDataSource, APLoo
 
     self.loopingScrollview.dataSource = self
     self.loopingScrollview.delegate = self
-    self.loopingScrollview.itemSize = CGSizeMake(150, 150)
+    self.loopingScrollview.itemSize = CGSizeMake(100, 100)
     self.loopingScrollview.itemSpacing = 10.0
     self.loopingScrollview.pagingEnabled = true
+    self.loopingScrollview.itemAlignment = .CenteredLeft
     self.view.addSubview(self.loopingScrollview)
   }
 
@@ -55,11 +56,12 @@ class RootViewController: UIViewController, APLoopingScrollViewDataSource, APLoo
   func loopingScrollView(scrollView: APLoopingScrollView, viewForIndex index: Int) -> UIView {
     let image = UIImage(named: "basket")
     let imageView = UIImageView(image: image)
-    imageView.contentMode = .ScaleAspectFill
+    imageView.backgroundColor = UIColor.blueColor().colorWithAlphaComponent(0.2)
+    imageView.contentMode = .ScaleAspectFit
     let label = UILabel(frame: imageView.bounds)
     imageView.addSubview(label)
     label.autoresizingMask = [ .FlexibleWidth, .FlexibleHeight ]
-    label.font = UIFont.systemFontOfSize(72.0)
+    label.font = UIFont.systemFontOfSize(36.0)
     label.textColor = UIColor.whiteColor()
     label.textAlignment = .Center
     return imageView
