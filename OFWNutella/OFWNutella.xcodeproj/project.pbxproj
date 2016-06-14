@@ -14,8 +14,6 @@
 		FA97C7451D09D166004D574B /* OFWNutella.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA97C7431D09D166004D574B /* OFWNutella.xcdatamodeld */; };
 		FA97C74E1D09D166004D574B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA97C74D1D09D166004D574B /* Assets.xcassets */; };
 		FA97C7511D09D166004D574B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA97C74F1D09D166004D574B /* LaunchScreen.storyboard */; };
-		FAD8D4A01D0B75980045595A /* LibAPLoopingScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8D49F1D0B75980045595A /* LibAPLoopingScrollView.framework */; };
-		FAD8D4A11D0B75980045595A /* LibAPLoopingScrollView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8D49F1D0B75980045595A /* LibAPLoopingScrollView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAD8D4A51D0B76B00045595A /* APLoopingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8D4A31D0B76B00045595A /* APLoopingScrollView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FAD8D4A11D0B75980045595A /* LibAPLoopingScrollView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +41,6 @@
 		FA97C74D1D09D166004D574B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA97C7501D09D166004D574B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA97C7521D09D166004D574B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAD8D49F1D0B75980045595A /* LibAPLoopingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = LibAPLoopingScrollView.framework; path = "/Users/apoes/Library/Developer/Xcode/DerivedData/OFWNutella-bhctttnuqausaidhmhiazltlrnno/Build/Products/Debug-iphonesimulator/LibAPLoopingScrollView.framework"; sourceTree = "<absolute>"; };
 		FAD8D4A31D0B76B00045595A /* APLoopingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APLoopingScrollView.swift; path = ../../../APLoopingScrollView/APLoopingScrollView/APLoopingScrollView/Source/APLoopingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD8D4A01D0B75980045595A /* LibAPLoopingScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +95,6 @@
 		FA97C7351D09D166004D574B = {
 			isa = PBXGroup;
 			children = (
-				FAD8D49F1D0B75980045595A /* LibAPLoopingScrollView.framework */,
 				FA97C7401D09D166004D574B /* OFWNutella */,
 				FA97C73F1D09D166004D574B /* Products */,
 			);

@@ -39,7 +39,7 @@ class RootViewController: UIViewController, APLoopingScrollViewDataSource, APLoo
     self.loopingScrollview.itemSize = CGSizeMake(100, 100)
     self.loopingScrollview.itemSpacing = 10.0
     self.loopingScrollview.pagingEnabled = true
-    self.loopingScrollview.itemAlignment = .CenteredLeft
+    self.loopingScrollview.itemAlignment = APLoopingScrollView.ItemAlignment.CenteredLeft
     self.view.addSubview(self.loopingScrollview)
   }
 
@@ -50,7 +50,7 @@ class RootViewController: UIViewController, APLoopingScrollViewDataSource, APLoo
   // MARK: - APLoopingScrollViewDataSource
 
   func loopingScrollViewTotalItems(scrollView: APLoopingScrollView) -> Int {
-    return 15
+    return 3
   }
 
   func loopingScrollView(scrollView: APLoopingScrollView, viewForIndex index: Int) -> UIView {
